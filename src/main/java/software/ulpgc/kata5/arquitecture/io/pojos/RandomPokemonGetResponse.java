@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.arquitecure.io.pojos;
+package software.ulpgc.kata5.arquitecture.io.pojos;
 
 public record RandomPokemonGetResponse(
         String name,

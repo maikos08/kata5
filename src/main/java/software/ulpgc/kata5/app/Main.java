@@ -1,9 +1,10 @@
 package software.ulpgc.kata5.app;
 
-import software.ulpgc.kata5.arquitecure.io.PokemonLoader;
-import software.ulpgc.kata5.arquitecure.io.RandomPokemonAdapter;
-import software.ulpgc.kata5.arquitecure.io.RandomPokemonDeserializer;
-import software.ulpgc.kata5.arquitecure.io.RandomPokemonReader;
+import software.ulpgc.kata5.arquitecture.control.ToggleCommand;
+import software.ulpgc.kata5.arquitecture.io.PokemonLoader;
+import software.ulpgc.kata5.arquitecture.io.RandomPokemonAdapter;
+import software.ulpgc.kata5.arquitecture.io.RandomPokemonDeserializer;
+import software.ulpgc.kata5.arquitecture.io.RandomPokemonReader;
 
 public class Main {
 
@@ -14,8 +15,12 @@ public class Main {
                 new RandomPokemonReader()
         );
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println(loader.load().name());
-        }
+        MainFrame mainFrame = new MainFrame();
+        mainFrame.put("toggle",
+                new ToggleCommand(
+                        mainFrame.getDisplay(),
+                        loader
+                ));
+        mainFrame.setVisible(true);
     }
 }

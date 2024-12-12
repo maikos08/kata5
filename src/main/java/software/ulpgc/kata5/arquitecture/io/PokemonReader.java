@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.arquitecure.io;
+package software.ulpgc.kata5.arquitecture.io;
 
 public interface PokemonReader {
     String read();

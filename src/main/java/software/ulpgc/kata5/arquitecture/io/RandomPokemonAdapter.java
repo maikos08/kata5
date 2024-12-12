@@ -1,9 +1,9 @@
-package software.ulpgc.kata5.arquitecure.io;
+package software.ulpgc.kata5.arquitecture.io;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
-import software.ulpgc.kata5.arquitecure.io.pojos.RandomPokemonGetResponse;
-import software.ulpgc.kata5.arquitecure.model.Pokemon;
+import software.ulpgc.kata5.arquitecture.io.pojos.RandomPokemonGetResponse;
+import software.ulpgc.kata5.arquitecture.model.Pokemon;
 
 import java.io.IOException;
 

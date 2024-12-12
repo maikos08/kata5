@@ -1,6 +1,6 @@
-package software.ulpgc.kata5.arquitecure.io;
+package software.ulpgc.kata5.arquitecture.io;
 
-import software.ulpgc.kata5.arquitecure.model.Pokemon;
+import software.ulpgc.kata5.arquitecture.model.Pokemon;
 
 public class PokemonLoader {
     private final PokemonDeserializer deserializer;

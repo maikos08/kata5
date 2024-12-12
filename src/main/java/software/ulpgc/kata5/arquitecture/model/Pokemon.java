@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.arquitecure.model;
+package software.ulpgc.kata5.arquitecture.model;
 
 public record Pokemon(
         String name,
