@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f84517-d92a-436e-8003-d051208d8ded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/PokemonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/PokemonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/PokemonLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/PokemonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/RandomPokemonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/RandomPokemonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/RandomPokemonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/io/pojos/RandomPokemonGetResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata5/arquitecure/model/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="89f84517-d92a-436e-8003-d051208d8ded" name="Changes" comment="Kata 5 successfully finished">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "maikos08"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maikos08&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/maikos08/kata5.git",
-    "accountId": "05ef40f6-957b-4d1c-a384-f5cc09241185"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maikos08/kata5.git&quot;,
+    &quot;accountId&quot;: &quot;05ef40f6-957b-4d1c-a384-f5cc09241185&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2q74OJm1fOTk2WXGNL1qWA3yluM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,13 +49,18 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/User/Universidad/3º/IS2/Practicas/kata5/kata5/src/main/java/software/ulpgc/kata5/app/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/User/Universidad/3º/IS2/Practicas/kata5/kata5/src/main/java/software/ulpgc/kata5/app/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="software.ulpgc.kata5.arquitecure.control" />
       <recent name="software.ulpgc.kata5.arquitecure.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,6 +76,28 @@
       <option name="presentableId" value="Default" />
       <updated>1734000245669</updated>
     </task>
+    <task id="LOCAL-00001" summary="Connection succed">
+      <option name="closed" value="true" />
+      <created>1734001025551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734001025551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Kata 5 successfully finished">
+      <option name="closed" value="true" />
+      <created>1734001248037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734001248037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Connection succed" />
+    <MESSAGE value="Kata 5 successfully finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kata 5 successfully finished" />
   </component>
 </project>
